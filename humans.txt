@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# THANKS
+
+    Background photo by 'NESA by Makers' on Unsplash
+
+    Icon set 'Ionicons' by Ionic Framework
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5

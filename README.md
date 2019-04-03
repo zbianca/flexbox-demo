@@ -1,0 +1,1 @@
+This is a fake website created for an exercise on CSS Flexbox.
