@@ -118,15 +118,34 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-footer {
   background: var(--main-white-color);
+  display: flex;
+  flex-direction: column-reverse;
 }
 
+.page-footer ul {
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.page-footer ul li:not(:last-child) {
+  margin-right: 20px;
+}
 
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width: 550px) {
+
+  .page-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .page-header ul {
     width: auto;
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   .page-header .cta-contact {
