@@ -119,7 +119,7 @@ body {
 .page-footer {
   background: var(--main-white-color);
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .page-footer ul {
